@@ -1,0 +1,76 @@
+steps:
+  INT_CUSTOMER_PER_CORRECT_LOCATION_RS_2-9e225bc7e5bcc3f7b597c398573feea963fedfae52bbc147ee4f224fe4bd10bc:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: ANALYTICS
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 0d4402e444101017bb7bb8ec60ada3aabb935e447782b8d92e5324ea020eb002
+              stepCounter: 9e225bc7e5bcc3f7b597c398573feea963fedfae52bbc147ee4f224fe4bd10bc
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LOCATION_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: ed39d7b5cbd238266cb6496084d1cac960fb4ebbd9475024160a8ee4310fb181
+                stepCounter: aea3ba49fe8ba292fa78d93ecf3292b5f985819303f933c763df19d3cfed33a0
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 0a9eb1c87e87a6a927e4c184c8ddca245141b4d5aa3f108733c43be7b4874316
+              stepCounter: 9e225bc7e5bcc3f7b597c398573feea963fedfae52bbc147ee4f224fe4bd10bc
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LOCATION_NAME
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 382c4461ce549398261f4865eb1c20e1dc65e53caedd9bcbe1f362e142c49ebb
+                stepCounter: aea3ba49fe8ba292fa78d93ecf3292b5f985819303f933c763df19d3cfed33a0
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ANALYTICS
+                nodeName: BASE_LOCATIONS
+            join:
+                joinCondition: FROM {{ ref('ANALYTICS', 'BASE_LOCATIONS') }} "BASE_LOCATIONS"
+            name: INT_CUSTOMER_PER_CORRECT_LOCATION_RS_2
+            noLinkRefs: []
+      name: INT_CUSTOMER_PER_CORRECT_LOCATION_RS_2
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 9e225bc7e5bcc3f7b597c398573feea963fedfae52bbc147ee4f224fe4bd10bc

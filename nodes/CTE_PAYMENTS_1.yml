@@ -1,0 +1,159 @@
+steps:
+  CTE_PAYMENTS_1-46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: ANALYTICS
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e5390c390ac70055cdacb777cd3dbba021b26f06c3a256daa2bd296ec7e4ad63
+              stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AMOUNT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: ee3b5a72a23e4304a10b19a8ed464323c78b2ee2e3e44537ebed3d802609999b
+                stepCounter: 7d43717d2738e2a2b77236630ff62092a559f081316c5d94984ea6dfca738bd0
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: ae31a8d05e29db379c0fd802aa9e656a76839bac086cffa1fc9f17479012f2f3
+              stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CUSTOMER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: eeac8e02b5bbffd0d9d8630b531179fb3c13f999747a47a8c6a1a1f131c63079
+                stepCounter: 7d43717d2738e2a2b77236630ff62092a559f081316c5d94984ea6dfca738bd0
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 44f2a162dd4b031a492c61ed8cb9559196e8583c312614c2c8630968b650f7bf
+              stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DELETED
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: a88f5283349168f4747b0a159d122bb5c8125af4bea9c545b821863a5b0394e5
+                stepCounter: 7d43717d2738e2a2b77236630ff62092a559f081316c5d94984ea6dfca738bd0
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e7210a93eff0b6fe12dd85f0d73a8024d5c409483f6f50f05a3f3d1af87aafb1
+              stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: SUBSCRIPTED_DATE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4b4dac004a3937e825d3d85aa628c05eecd23b2b51699843c400c2bb69885032
+                stepCounter: 7d43717d2738e2a2b77236630ff62092a559f081316c5d94984ea6dfca738bd0
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: cdbf8570263efad807d9ef8accea867649de7a2a4523083896ece4a568a9c6c7
+              stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: UPDATED_AT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 00c75e52ae78ec19203ffee49eefc270ee5f43ff0ef802ba77414b00904bb44a
+                stepCounter: 7d43717d2738e2a2b77236630ff62092a559f081316c5d94984ea6dfca738bd0
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 7c3e601409a2a73e45636f0fa82d470f3d661680c52ae552680b2ae4a2f52638
+              stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PAYMENT_TYPE_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 373695a9e2254a5ec70816a278cd8e8d4b760e1539fd7ccb5db219e0f1eac30a
+                stepCounter: 7d43717d2738e2a2b77236630ff62092a559f081316c5d94984ea6dfca738bd0
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ANALYTICS
+                nodeName: INT_PAYMENTS_WITH_METHODS_RS_1
+            join:
+                joinCondition: |-
+                  FROM {{ ref('ANALYTICS', 'INT_PAYMENTS_WITH_METHODS_RS_1') }} "INT_PAYMENTS_WITH_METHODS_RS_1"
+                  INNER JOIN {{ ref('DBT_GGITHIRI', 'SUBSCRIPTION_PERIODS_RS_3') }} "SUBSCRIPTION_PERIODS_RS_3" 
+                  ON "CTE_PAYMENTS_1".CUSTOMER_ID = "SUBSCRIPTION_PERIODS_RS_3".CUSTOMER_ID
+            name: CTE_PAYMENTS_1
+            noLinkRefs: []
+      name: CTE_PAYMENTS_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1

@@ -1,0 +1,179 @@
+steps:
+  CTE_CALLS_1-6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: ANALYTICS
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: b2ecb3c853d3b1e6d4c9ae56670b5233d682647933f4782f0e93d5f124115df8
+              stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CALL_DIRECTION
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: c8c61c1ad995ed0ffe2a56e5397162312fba532872e19e44ee7a9b5e28fa372e
+                stepCounter: 5a9a43d5665b4b1f9a01ea470d6798f5a58a7c6e847c8eb9a3a1349a5dafdda1
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 366a02abb359b326b80413cdc3c1cb92f9d90859cd092ff285bd886c13682b83
+              stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CALL_DURATION
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4a939a2fb33945c4343b8d6ae8f77c5fb46263cb5f249d9f43d466b5be88cd6b
+                stepCounter: 5a9a43d5665b4b1f9a01ea470d6798f5a58a7c6e847c8eb9a3a1349a5dafdda1
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5a6c06c01c28152e4f1a15c30fc5401bae455493d2968b51354c672e542e25f9
+              stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: COMMENT
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: f3d9ed51ebe4c5d456e21abe1627a60e65fe9c856c11d764b3fdcf6d1b0d2bdc
+                stepCounter: 5a9a43d5665b4b1f9a01ea470d6798f5a58a7c6e847c8eb9a3a1349a5dafdda1
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: cedf2f2397403c618880bda660b7558f8e6a726d1f8dd0ed96644537205ca21c
+              stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CUSTOMER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 4657cc1a86cf32f1ba441e2b6ef355ddf6db34692d53817cb2e53087748ad754
+                stepCounter: 5a9a43d5665b4b1f9a01ea470d6798f5a58a7c6e847c8eb9a3a1349a5dafdda1
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 32c164a88db736ff430b9f372e44acd4d4b410eb555f8ea1d1f5d07380a0065d
+              stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: DATETIME
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 2506a1ad4aee5ca65b745c145a7b006b576cfb1525db279eb3c40f6e05a58fc2
+                stepCounter: 5a9a43d5665b4b1f9a01ea470d6798f5a58a7c6e847c8eb9a3a1349a5dafdda1
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: eba49e2545a49974093c5af5747b1efa5f032715c20c7dda886f2ca1eb2e36ee
+              stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: cb2bfcefc82d9aa7e9cb9ec73e96f90861b23f5bc3a8476ab621e9dec937f0d8
+                stepCounter: 5a9a43d5665b4b1f9a01ea470d6798f5a58a7c6e847c8eb9a3a1349a5dafdda1
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5d16946d48d99200a3db908efdf647266564f5e9997d2ada3aa110624239303c
+              stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MOBILE_CALLS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 23ce374ca3cec5e8313938258b9b876f1b8726b585351282e449304347654b33
+                stepCounter: 5a9a43d5665b4b1f9a01ea470d6798f5a58a7c6e847c8eb9a3a1349a5dafdda1
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ANALYTICS
+                nodeName: INT_CUSTOMER_CALLS_RS_2
+            join:
+                joinCondition: |-
+                  FROM {{ ref('ANALYTICS', 'INT_CUSTOMER_CALLS_RS_2') }} "INT_CUSTOMER_CALLS_RS_2"
+                  RIGHT JOIN {{ ref('DBT_GGITHIRI', 'TOP_CALLERS_RS_2') }} "TOP_CALLERS_RS_2" 
+                  ON "CTE_CALLS_1".CUSTOMER_ID = "TOP_CALLERS_RS_2".CUSTOMER_ID
+            name: CTE_CALLS_1
+            noLinkRefs: []
+      name: CTE_CALLS_1
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37

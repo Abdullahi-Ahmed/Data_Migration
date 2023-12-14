@@ -98,9 +98,6 @@ data migration and processing tasks.
 - `INT_CUSTOMER_PER_CORRECT_LOCATION_RS_5`:
         This is a intermediate node,
         placeholder descriptions` file in the `nodes/` directory.
-- `STG_TICKET`:
-        This is a Others node,
-        placeholder descriptions` file in the `nodes/` directory.
 - `INT_CUSTOMER_PER_CORRECT_LOCATION_RS_1`:
         This is a intermediate node,
         placeholder descriptions` file in the `nodes/` directory.

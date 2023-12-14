@@ -1,0 +1,76 @@
+steps:
+  INT_PAYMENTS_WITH_METHODS_RS_3-73f44293672ae1ec27c470d0ebba601049a1b9b37d4410d59287875ad4522a02:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: ANALYTICS
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 6c2c13fd0b7a6571464a5c973d65f6c363335068341da50124e94f8b9424e8da
+              stepCounter: 73f44293672ae1ec27c470d0ebba601049a1b9b37d4410d59287875ad4522a02
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PAYMENT_METHOD
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 5e9f4e27a00b4295259ff39290a80aa7d04b9131b26e30aad6231283cd5d92e2
+              stepCounter: 73f44293672ae1ec27c470d0ebba601049a1b9b37d4410d59287875ad4522a02
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PAYMENT_TYPE_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 7c3e601409a2a73e45636f0fa82d470f3d661680c52ae552680b2ae4a2f52638
+                stepCounter: 46eaa691ed1465de77f649b4e4230d4064d49e12c3248eada49d962d93d3a9e1
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ANALYTICS
+                nodeName: CTE_PAYMENTS_1
+            join:
+                joinCondition: FROM {{ ref('ANALYTICS', 'CTE_PAYMENTS_1') }} "CTE_PAYMENTS_1"
+            name: INT_PAYMENTS_WITH_METHODS_RS_3
+            noLinkRefs: []
+      name: INT_PAYMENTS_WITH_METHODS_RS_3
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 73f44293672ae1ec27c470d0ebba601049a1b9b37d4410d59287875ad4522a02

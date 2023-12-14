@@ -1,0 +1,216 @@
+steps:
+  INT_CUSTOMER_CALLS_RS_3-4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8:
+    operation:
+      config:
+        insertStrategy: INSERT
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+        truncateBefore: true
+      database: ""
+      deployEnabled: true
+      description: ""
+      isDataVault: false
+      isMultisource: true
+      locationName: ANALYTICS
+      materializationType: view
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 21966540b6373b3488925f29c6ed8df2158ee8e36e3897cc18027615bf4128eb
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MISSED_CALLS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: fef00c2bbc96f579ebe313924f7cc8da68edbae62e16cacae6d86a532c7a66c2
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: UNANSWERED_CALLS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 7f6a536471df0e59bd8983853f03f76cfd6484e5e5ea5174fb6ceff8733ec0f5
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CALL_DATE
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 83387f4ed6bb0ef48bb991949b7435b65ed144a92faa601cb0c3ea21ecb08eee
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CALL_DURATION
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 366a02abb359b326b80413cdc3c1cb92f9d90859cd092ff285bd886c13682b83
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 7400f6f21a7c6e300b90e6e74dc74c98a76449c334ef27f2286d1a3a16d1bf06
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CALL_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: e5df5100bba659ca520aaee05bb78500aecc4cdf837e1245d6106e46e9a23975
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CUSTOMER_ID
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: cedf2f2397403c618880bda660b7558f8e6a726d1f8dd0ed96644537205ca21c
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: fa56cd169a6d6eb69afeb175f54fee3487cb8f01926cad66126e5bf23b4743d0
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INBOUND
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 0f19de950ce2af0806f6e4dbb400b8ad321efe030c4081ca87f2b774aaab4d6a
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MOBILE_CALLS
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: 5d16946d48d99200a3db908efdf647266564f5e9997d2ada3aa110624239303c
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests:
+              hasNull: true
+              isDistinct: false
+            columnReference:
+              columnCounter: 50bb0b8fbda41f68fa9490420cdc06e3c2cfcc5258178410f073e59ccab88e15
+              stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8
+            dataType: ""
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OUTBOUND
+            nullable: false
+            sourceColumnReferences:
+            - columnReferences:
+              - columnCounter: None
+                stepCounter: 6dfa7cd870f6a52629f7ec5de22baeb54670a86be5fbdee44685eecff26b6b37
+              transform: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: ANALYTICS
+                nodeName: CTE_CALLS_1
+            join:
+                joinCondition: FROM {{ ref('ANALYTICS', 'CTE_CALLS_1') }} "CTE_CALLS_1"
+            name: INT_CUSTOMER_CALLS_RS_3
+            noLinkRefs: []
+      name: INT_CUSTOMER_CALLS_RS_3
+      overrideSQL: false
+      schema: ""
+      sqlType: Stage
+      type: sql
+    stepCounter: 4462e913b51bd0bed7cc27055da09f533fb78fc03de8846a391b680412220ed8

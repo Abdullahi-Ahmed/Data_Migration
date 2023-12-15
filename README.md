@@ -11,112 +11,100 @@ data migration and processing tasks.
 
 ## :file_folder: Migrated Tables/Views  :
 
-- `DBO_LOCATIONS`:
+- `DIM_CUSTOMERS_RS_4`:
+        This is a dimension node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `FCT_ORDERS_RS_2`:
+        This is a fact node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `DIM_CUSTOMERS_RS_1`:
+        This is a dimension node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `FCT_ORDERS_RS_4`:
+        This is a fact node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `CTE_CUSTOMER_ORDERS_DIM_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_PAYMENTS_WITH_METHODS`:
-        This is a intermediate node,
+- `DIM_CUSTOMERS_RS_2`:
+        This is a dimension node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_CALLS_RS_1`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `INT_PAYMENTS_WITH_METHODS_RS_5`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_CALLS_RS_4`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `CTE_PAYMENT_TYPE_1`:
-        This is a Others node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `DBO_PAYMENTS`:
-        This is a Others node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_PER_CORRECT_LOCATION`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `INT_PAYMENTS_WITH_METHODS_RS_1`:
+- `INT_ORDERS_PIVOTED_RS_1`:
         This is a intermediate node,
         placeholder descriptions` file in the `nodes/` directory.
 - `CTE_PAYMENTS_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_CALLS`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_PER_CORRECT_LOCATION_RS_3`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `INT_PAYMENTS_WITH_METHODS_RS_4`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_CALLS_RS_2`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `DBO_PAYMENT_TYPE`:
+- `STRIPE_PAYMENT`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_CALLS_RS_3`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `STG_CALLS`:
+- `JAFFLE_SHOP_ORDERS`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_CALLS_RS_5`:
-        This is a intermediate node,
+- `FCT_ORDERS_RS_5`:
+        This is a fact node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_PER_CORRECT_LOCATION_RS_2`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `DBO_CUSTOMERS`:
+- `CTE_FINAL_DIM_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `CTE_CALLS_1`:
-        This is a Others node,
+- `DIM_CUSTOMERS`:
+        This is a dimension node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_PER_CORRECT_LOCATION_RS_4`:
+- `FCT_ORDERS_RS_1`:
+        This is a fact node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `INT_ORDERS_PIVOTED_RS_3`:
         This is a intermediate node,
         placeholder descriptions` file in the `nodes/` directory.
-- `CTE_CUSTOMER_CALLS_1`:
-        This is a Others node,
+- `DIM_CUSTOMERS_RS_5`:
+        This is a dimension node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_PAYMENTS_WITH_METHODS_RS_2`:
-        This is a intermediate node,
+- `DIM_CUSTOMERS_RS_3`:
+        This is a dimension node,
         placeholder descriptions` file in the `nodes/` directory.
-- `STG_TICKETS`:
-        This is a Others node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `CTE_LOCATIONS_1`:
+- `CTE_PAYMENTS_FCT_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
 - `STG_CUSTOMERS`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `DBO_CALLS`:
+- `FCT_ORDERS_RS_3`:
+        This is a fact node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `INT_ORDERS_PIVOTED_RS_2`:
+        This is a intermediate node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `INT_ORDERS_PIVOTED`:
+        This is a intermediate node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `CTE_CUSTOMERS_DIM_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_PER_CORRECT_LOCATION_RS_5`:
-        This is a intermediate node,
+- `FCT_ORDERS`:
+        This is a fact node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_CUSTOMER_PER_CORRECT_LOCATION_RS_1`:
-        This is a intermediate node,
+- `JAFFLE_SHOP_CUSTOMERS`:
+        This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `INT_PAYMENTS_WITH_METHODS_RS_3`:
-        This is a intermediate node,
-        placeholder descriptions` file in the `nodes/` directory.
-- `CTE_ALL_PAYMENTS_1`:
+- `CTE_ORDER_PAYMENTS_FCT_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
 - `STG_PAYMENTS`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
+- `STG_ORDERS`:
+        This is a Others node,
+        placeholder descriptions` file in the `nodes/` directory.
 - `CTE_FINAL_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `DBO_ADMINS`:
+- `CTE_ORDERS_FCT_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
-- `DBO_TICKETS`:
+- `CTE_FINAL_FCT_1`:
+        This is a Others node,
+        placeholder descriptions` file in the `nodes/` directory.
+- `CTE_ORDERS_DIM_1`:
         This is a Others node,
         placeholder descriptions` file in the `nodes/` directory.
     ## :book: Node Types in `data.yml` :book:
